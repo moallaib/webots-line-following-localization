@@ -1,2 +1,31 @@
-# webots-line-following-localization
-Webots project using the e-puck robot for line following, odometry-based localization, and LiDAR mapping with visualization.
+# Line Following with Localization (Webots + Python)
+
+🚀 This project implements a **line-following robot with odometry and localization** in Webots using the e-puck robot.  
+The robot follows a black line using ground sensors while simultaneously performing localization with GPS, compass, and LiDAR.
+
+---
+
+## 📌 Features
+- ✅ Line following using ground sensors  
+- ✅ Odometry and GPS/Compass fusion for localization  
+- ✅ LiDAR mapping with visualization on the robot’s display  
+- ✅ Coordinate transformation (world → map)  
+- ✅ **LiDAR filtering**: infinite readings are replaced with a maximum range value (100m) for better mapping stability  
+
+---
+
+## 📂 Resources
+- 📘 [Project Explanation Document](docs/project_explanation.pdf)  
+- 📦 [Download Full Project ZIP](line_following_localization.zip)  
+- 🖼️ Screenshot:  
+
+<img src="assets/screenshot.png" width="500">
+
+---
+
+## 🛠️ Requirements
+- [Webots](https://cyberbotics.com/) (tested on R2023b)  
+- Python 3.8+  
+- Libraries:
+  ```bash
+  pip install numpy matplotlib
