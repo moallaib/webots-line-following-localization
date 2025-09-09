@@ -10,15 +10,7 @@ The robot follows a black line using ground sensors while simultaneously perform
 - ✅ Odometry and GPS/Compass fusion for localization  
 - ✅ LiDAR mapping with visualization on the robot’s display  
 - ✅ Coordinate transformation (world → map)  
-- ✅ **LiDAR filtering**: infinite readings are replaced with a maximum range value (100m) for better mapping stability  
-
----
-
-## 📂 Resources
-- 📦 [Download Full Project ZIP](line_following_localization.zip)  
-- 🖼️ Screenshot:  
-
-<img src="assets/screenshot.png" width="500">
+- ✅ **LiDAR filtering**: infinite readings are replaced with a maximum range value (100m) for better mapping stability   
 
 ---
 
