@@ -15,7 +15,6 @@ The robot follows a black line using ground sensors while simultaneously perform
 ---
 
 ## 📂 Resources
-- 📘 [Project Explanation Document](docs/project_explanation.pdf)  
 - 📦 [Download Full Project ZIP](line_following_localization.zip)  
 - 🖼️ Screenshot:  
 
